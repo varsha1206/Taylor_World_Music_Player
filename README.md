@@ -42,3 +42,12 @@ I've used TCP connection to implement the transfer of selected song from server 
 - I agree this is a major drawback, but only one song can be played from chosen album, to play another from the same album or playlist you must reopen the window. I'm working on it to change that and it would be much appreciated if anyone could help with that
 
 ## Screenshots
+- Albums GUI
+  ![albums](ScreenShots/Albums.png)
+- Play songs
+  ![songs](ScreenShots/Songplay.png)
+- Custom Playlist Creation
+  ![cust](ScreenShots/playlistcreation.png)
+- Play custom playlist
+  
+   ![pc](ScreenShots/PlayPlaylist.png)
