@@ -51,3 +51,6 @@ I've used TCP connection to implement the transfer of selected song from server 
 - Play custom playlist
   
    ![pc](ScreenShots/PlayPlaylist.png)
+
+## Resources
+- The GUI and song functionalities were inspired from [here](https://www.studytonight.com/tkinter/music-player-application-using-tkinter), I have also reused the code and applied to my project with some changes.
