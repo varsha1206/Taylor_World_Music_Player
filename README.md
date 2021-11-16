@@ -1,6 +1,6 @@
 # Taylor_World_Music_Player
 
-In this project, I've using Socket Programming to make a music player, that allows the client to choose and play the desired song from the server. I've inlcuded my favourite Taylor Swift albums to choose from and it also allows the client to make a custom playlist from these available songs. 
+In this project, I'm using Socket Programming to make a music player, that allows the client to choose and play the desired song from the server. I've inlcuded my favourite Taylor Swift albums to choose from and it also allows the client to make a custom playlist from these available songs. 
 
 I've used TCP connection to implement the transfer of selected song from server to client.
 
