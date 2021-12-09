@@ -268,7 +268,8 @@ def Album(album,pic):
 
     print("Getting songs: ")
     data = s1.recv(1024).decode()
-    songs= eval(data) #Making receiced data into list
+    songs = eval(data) #Making receiced data into list
+    print(songs)
     #Calling pygame functions
     pygame.mixer.init()
     pygame.init()
@@ -364,6 +365,8 @@ def Album(album,pic):
         # Stopped Song
         pygame.mixer.music.stop()
         pygame.mixer.music.unload()
+        s1.close()
+        al.destroy()
 
     #Function to pause song being played
     def pausesong():
@@ -399,6 +402,7 @@ def Album(album,pic):
 
     # Inserting Stop Button
     playbtn = Button(buttonframe,text="STOP",command=stopsong,width=5,height=1,font=("times new roman",16,"bold"),fg="#1b1515",bg="#1DB954").grid(row=0,column=3,padx=5,pady=5)
+
 
     #Running GUI windowloop
     al.mainloop()
